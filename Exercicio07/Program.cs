@@ -1,9 +1,11 @@
-﻿decimal precoPorKilo = 12.00m;
-decimal pesoPrato, valorFinal;
+int dia, mes, dias;
 
-Console.WriteLine("Digite o peso do prato em quilos: ");
-pesoPrato = Convert.ToDecimal(Console.ReadLine());
+Console.WriteLine("Digite o dia: ");
+dia = Convert.ToInt32(Console.ReadLine());
 
-valorFinal = pesoPrato * precoPorKilo;
+Console.WriteLine("Digite o mês: ");
+mes = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Valor a pagar: R$ " + valorFinal.ToString("F2"));
+dias = (mes - 1) * 30 + dia;
+
+Console.WritLine("Já se passaram " + dias + " dias desde o início do ano.");
