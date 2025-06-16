@@ -1,4 +1,4 @@
-﻿decimal nota1, nota2, nota3, mediaPoderada;
+﻿decimal nota1, nota2, nota3, mediaPonderada;
 
 Console.WriteLine("Digite a primeira nota: ");
 nota1 = Convert.ToDecimal(Console.ReadLine());
@@ -9,6 +9,6 @@ nota2 = Convert.ToDecimal(Console.ReadLine());
 Console.WriteLine("Digite a primeira nota: ");
 nota3 = Convert.ToDecimal(Console.ReadLine());
 
-mediaPoderada = (nota1 * 1 + nota2 * 2 + nota3 * 3) / 6;
+mediaPonderada = (nota1 * 1 + nota2 * 2 + nota3 * 3) / 6;
 
-Console.WriteLine("A média da nota poderada é " + mediaPoderada);
+Console.WriteLine("A média da nota ponderada é " + mediaPonderada);
