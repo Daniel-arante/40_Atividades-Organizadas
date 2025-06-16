@@ -3,7 +3,7 @@
 Console.WriteLine("Digite o preço da gasolina: ");
 precoGasolina = Convert.ToDecimal(Console.ReadLine());
 
-Console.WriteLine("Digite o valor que deve pago: ");
+Console.WriteLine("Digite o valor que deve ser pago: ");
 valorPago = Convert.ToDecimal(Console.ReadLine());
 
 if (precoGasolina > 0)
