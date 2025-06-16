@@ -1,7 +1,7 @@
 ﻿decimal precoPorKilo = 12.00m;
 decimal pesoPrato, valorFinal;
 
-Console.WriteLine("Digite o peso do prato em: ");
+Console.WriteLine("Digite o peso do prato: ");
 pesoPrato = Convert.ToDecimal(Console.ReadLine());
 
 valorFinal = pesoPrato * precoPorKilo;
